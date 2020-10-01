@@ -23,7 +23,7 @@ if __name__ == "__main__":
     logger.info("Starting test")
 
     api = ChainballCentralAPI(
-        "http://www.chainball.online",
+        "https://www.chainball.online",
         "API_KEY",
     )
     game_registry = LocalGameRegistry(DB_PATH)
